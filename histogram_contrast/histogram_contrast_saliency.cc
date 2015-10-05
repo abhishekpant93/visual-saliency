@@ -90,9 +90,9 @@ void HistogramContrastSaliency::Quantize(const int nBins, Mat *quantized) {
             const Vec3b src__px = src_.at<Vec3b>(y, x);
             const int b = src__px[0], g = src__px[1], r = src__px[2];
             Vec3b &q_px = quantized->at<Vec3b>(y, x);
-            q_px[0] = (b / binSz == nBins ? b / binSz - 1 : b / binSz) * binSz;
-            q_px[1] = (g / binSz == nBins ? g / binSz - 1 : g / binSz) * binSz;
-            q_px[2] = (r / binSz == nBins ? r / binSz - 1 : r / binSz) * binSz;
+            q_px[0] = (b / binSz == nBins ? nBins - 1 : b / binSz) * binSz;
+            q_px[1] = (g / binSz == nBins ? nBins - 1 : g / binSz) * binSz;
+            q_px[2] = (r / binSz == nBins ? nBins - 1 : r / binSz) * binSz;
         }
     }
 }
