@@ -3,12 +3,11 @@ A collection of techniques to help determine salient regions and objects in an i
 
 Usage
 -----
-See main.cc for sample use.
+See [main.cc](https://github.com/abhishekpant93/visual-saliency/blob/master/main.cc) for sample use.
 
 Sample Output
 -------------
-Original image  
-![Original](https://cloud.githubusercontent.com/assets/2551683/10296634/f45eaf86-6be7-11e5-809a-09b080e832cf.jpg)
-
-Detected salient regions using Histogram Contrast method
-![Salient](https://cloud.githubusercontent.com/assets/2551683/10296636/fa40a36e-6be7-11e5-951c-4056bb8d8f6b.png)
+Original                   |  Detected Salient Regions
+:-------------------------:|:-------------------------:
+![Original](https://cloud.githubusercontent.com/assets/2551683/10306612/e44bc3aa-6c45-11e5-95c9-fcb0b715d982.jpg)  |  ![Histogram Contrast Method](https://cloud.githubusercontent.com/assets/2551683/10306613/e4529a40-6c45-11e5-98e0-f64381e95dea.png)
+![Original](https://cloud.githubusercontent.com/assets/2551683/10306803/0f8da87a-6c47-11e5-8da8-a829258da4e4.jpg) | ![Histogram Contrast Method](https://cloud.githubusercontent.com/assets/2551683/10306805/0fef7b7c-6c47-11e5-94c0-0e29a0254c76.png)
